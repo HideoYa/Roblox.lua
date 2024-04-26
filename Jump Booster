@@ -15,7 +15,7 @@
     		if currentJumpPower < BOOSTED_JUMP_POWER then
     			humanoid.JumpPower = BOOSTED_JUMP_POWER
 				--boostPart.transparent = 1
-				wait(10)
+				wait(5)
     			humanoid.JumpPower = currentJumpPower
 				--boostPart.transparent = 0
     		end
